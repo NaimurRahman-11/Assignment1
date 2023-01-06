@@ -7,67 +7,68 @@ body {
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
 h1 {
-    position: absolute;
-    width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 160px;
 
-
-    font-style: normal;
-    font-weight: 700;
     font-size: 65px;
-    line-height: 76px;
-    text-align: right;
+}
 
-    /* Dark 01 */
-
-    color: #151414;
-
+h2 {
+    font-size: 40px;
 }
 
 p {
-
-
-    position: absolute;
-    width: 494px;
-    height: 78px;
-    left: 876px;
-    top: 444px;
-
-
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
-    /* or 162% */
-
-    text-align: right;
-
-    /* Dark 02 */
-
     color: #444343;
-
 }
 
 .primary-btn {
-
-    height: 64px;
-    width: 160px;
-    left: 1210px;
-    top: 586px;
+    margin-top: 32px;
+    border: 0;
     border-radius: 5px;
-
-    position: absolute;
-    width: 160px;
-    height: 64px;
-    left: 1210px;
-    top: 578px;
-    background: #F15B22;
-    border: none;
+    background-color: #F15B22;
     color: white;
+    padding: 21px;
     font-weight: 600;
     font-size: 20px;
+}
+
+.sectionOne {
+    margin-top: 216px;
+    width: 525px;
+    height: 228px;
+    margin-left: 845px;
+    font-family: 'Work Sans';
+}
+
+.sectionTwo {
+    margin-top: 431px;
+    display: flex;
+    margin-left: 206px;
+
+}
 
 
+.sectionTwo h2 {
+    margin-right: 35%;
+    margin-left: 6%;
+    margin-top: 170px;
+}
+
+.section-content {
+    margin-right: 35%;
+    margin-left: 6%;
+}
+
+.green {
+    color: #16D887;
+}
+
+ul li {
+    list-style: none;
+    padding-bottom: 4px;
+}
+
+#sectionThreeHeader {
+    text-align: center;
+    margin-top: 100px;
 }
