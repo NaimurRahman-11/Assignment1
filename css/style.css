@@ -1,3 +1,73 @@
-body{
+body {
     background-image: url('/images/banner/banner1.png');
+    background-repeat: no-repeat;
+    font-family: 'Work Sans';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+h1 {
+    position: absolute;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 160px;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+
+    /* Dark 01 */
+
+    color: #151414;
+
+}
+
+p {
+
+
+    position: absolute;
+    width: 494px;
+    height: 78px;
+    left: 876px;
+    top: 444px;
+
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    /* or 162% */
+
+    text-align: right;
+
+    /* Dark 02 */
+
+    color: #444343;
+
+}
+
+.primary-btn {
+
+    height: 64px;
+    width: 160px;
+    left: 1210px;
+    top: 586px;
+    border-radius: 5px;
+
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background: #F15B22;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+
+
 }
