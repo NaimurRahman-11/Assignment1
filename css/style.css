@@ -32,6 +32,10 @@ p {
     font-size: 20px;
 }
 
+.primary-btn:hover {
+    cursor: pointer;
+}
+
 .sectionOne {
     margin-top: 216px;
     width: 525px;
@@ -115,6 +119,10 @@ ul li {
     margin-bottom: 3px;
 }
 
+.banner-content button:hover {
+    cursor: pointer;
+}
+
 .footer {
     width: 100%;
     height: 577px;
@@ -164,7 +172,12 @@ input {
     color: #F15B22;
     padding: 15px;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+.footer button:hover {
+    cursor: pointer;
 }
 
 .footer-content {
@@ -178,11 +191,12 @@ input {
     margin-top: 130px;
 }
 
-.subscribe button {
-    margin-top: 8px;
-}
-
 .footer img {
     margin-left: auto;
+
+}
+
+.footer img:hover {
+    cursor: pointer;
 
 }
