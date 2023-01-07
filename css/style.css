@@ -1,5 +1,5 @@
 body {
-    background-image: url('/images/banner/banner1.png');
+    background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     font-family: 'Work Sans';
 }
@@ -37,7 +37,6 @@ p {
     width: 525px;
     height: 228px;
     margin-left: 845px;
-    font-family: 'Work Sans';
 }
 
 .sectionTwo {
